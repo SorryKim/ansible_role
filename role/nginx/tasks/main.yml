@@ -1,4 +1,4 @@
-me: Linux_installation
+- name: Linux_installation
   include_tasks: "{{ lnx_name }}.yml"
 
 - name: nginx_configuration

@@ -3,5 +3,5 @@
   hosts: centos
   become: yes
   roles:
-   - role: ./roles/nginx
+   - role: ./role/nginx
 
