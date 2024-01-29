@@ -1,0 +1,6 @@
+me: Linux_installation
+  include_tasks: "{{ lnx_name }}.yml"
+
+- name: nginx_configuration
+  include_tasks: config.yml
+
