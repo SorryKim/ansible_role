@@ -1,0 +1,6 @@
+---
+- name: 웹서버 재시작
+  service:
+    name: nginx
+    state: restarted
+
